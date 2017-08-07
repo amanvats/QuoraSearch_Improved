@@ -1,0 +1,72 @@
+body {
+    background-image: url("http://www.lifewallpapers.net/data/out/47/3905442-black-and-red-hd-wallpaper.jpg");
+    /*background-color: #cccccc;*/
+}
+.key {
+	height:32px;
+	width:140px;
+	display:inline-block;
+	padding:2px;
+	text-align:center;
+	font-family:sans-serif,Arial;
+	font-weight:100;
+	font-size:1.1em;
+	background-color:#ff3333;
+	color::white;
+	border: 2px solid #ff3333;
+	border-radius:2em;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+a:hover {
+	font-size:1.2em;
+	text-decoration:none;
+	color:white;
+}
+
+#form {
+	float:center;
+	margin-left:22em;
+	margin-top:8em;
+	text-align:left;
+	display:inline-block;
+}
+#submit {
+	margin-left:5em;
+}
+#image {
+	margin-left:32em;
+	border:2px solid red;
+	position:fixed;
+	display:inline-block;
+}
+#footer {
+	margin-top:5em;
+	height:3.6em;
+}
+#footkey {
+	width:200px;
+	height:30px;
+	padding:2px;
+	margin-top:12em;
+	color:White;
+	background-color:#ff3333;
+	font-family:sans-serif;
+	font-weight: 250;
+	border-radius:2em;
+	text-align:center;
+	display:inline-block;
+
+}
+#line{
+font-family:sans-serif;
+font-weight: 300;
+color:white;
+}
+p {
+	color:black;
+	font-family:sans-serif;
+}

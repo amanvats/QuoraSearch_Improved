@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/quora.css' %}">
+		<title>Quora Search Improved</title>
+	</head>
+	<body>
+		<div id="form">
+		<div id="line">What is your question?</div>
+            <form method="POST" class="post-form">{% csrf_token %}
+                {{ form }}
+                <button type="submit" class="save btn btn-default">Search</button>
+            </form>
+		</div>
+		<div id="footer">
+		<div id="footkey"><a href="#">Aman Vats Production</a></div>
+		</div>
+	</body>
+</html>
