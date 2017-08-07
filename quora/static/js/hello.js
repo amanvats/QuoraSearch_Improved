@@ -1,4 +1,2 @@
-
-
-alert("Go to your default browser, Sir");
+console.log("Go to your default browser, Sir");
 window.open({{url}});
