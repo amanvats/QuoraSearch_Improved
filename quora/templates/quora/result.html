@@ -1,10 +1,13 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Final</title>
+    <title>Result Page</title>
+    <script src={%static "js/hello.js" %} type = "text/javascript"></script>
 </head>
 <body>
+<div id="result"><p>Most suitable link is:</p>{{urll|linebreaksbr}}</div>
 <h1>Your answer will open in your default browser</h1>
 </body>
 </html>

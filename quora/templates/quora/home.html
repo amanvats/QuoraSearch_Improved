@@ -14,7 +14,7 @@
 		<div id="form">
 		<div id="line">What is your question?</div>
             <form method="POST" class="post-form">{% csrf_token %}
-                {{ form }}
+				<div id ="temp"> '{{ form.as_p }} </div>
                 <button type="submit" class="save btn btn-default">Search</button>
             </form>
 		</div>

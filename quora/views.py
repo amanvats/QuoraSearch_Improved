@@ -22,6 +22,7 @@ def home(request):
 
 
 def result(request, pk):
+    ret = " "
     qt = " "
     question = get_object_or_404(query, pk=pk)
     q = str(question)
@@ -29,7 +30,10 @@ def result(request, pk):
     qt += 'Quora'
     for j in search(qt, tld="co.in", num=1, stop=1, pause=2):
         urll = j;
+        urll = str(urll)
+        print(urll)
+        ret+=urll
         wb.open_new_tab(urll)
     form =queryForm
-    return render(request, 'quora/result.html', {})
+    return render(request, 'quora/result.html', {'urll': ret})
 
