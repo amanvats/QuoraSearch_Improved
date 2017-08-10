@@ -1,0 +1,21 @@
+body
+{
+background-image: url("http://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png");
+}
+#result{
+font-family:sans-serif;
+font-weight: 300;
+color:#0099ff;
+position:absolute;
+left:5em;
+top:7.5em;
+}
+
+#res{
+font-family:sans-serif;
+font-weight: 500;
+    position: absolute;
+    left: 5em;
+    top: 15em;
+    color:#0099ff;
+}

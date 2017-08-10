@@ -55,3 +55,11 @@ p {
 	color:black;
 	font-family:sans-serif;
 }
+#line2{
+color: white;
+	font-family:sans-serif;
+	font-weight: 100;
+	position:absolute;
+	left: 35em;
+
+}

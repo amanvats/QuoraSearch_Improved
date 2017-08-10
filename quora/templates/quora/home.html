@@ -14,9 +14,10 @@
 		<div id="form">
 		<div id="line">What is your question?</div>
             <form method="POST" class="post-form">{% csrf_token %}
-				<div id ="temp"> '{{ form.as_p }} </div>
+				<div id ="temp"> '{{ form }} </div>
                 <button type="submit" class="save btn btn-default">Search</button>
             </form>
+		<p id = "line2">You can also give keywords only, not the exact question.<br> If you want to read quora answer of person 'abc' on topic 'xyz' just type the two words.</p>
 		</div>
 		<div id="footer">
 		<div id="footkey"><a href="#">Aman Vats Production</a></div>
