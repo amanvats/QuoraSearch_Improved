@@ -14,7 +14,8 @@
 <!--<script src="{% static 'js/hello.js' %} type="text/javascript"></script>-->
     <script>
         alert("Most suitable Quora Answer has opened in your default browser, Sir");
-        window.open({{url}});
+        var link = {{url}};
+        window.open(link);
     </script>
 </head>
 <body>
