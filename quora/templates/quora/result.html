@@ -11,15 +11,13 @@
     <link rel="stylesheet" href="{% static 'css/final.css' %}">
     <meta charset="UTF-8">
     <title>Result Page</title>
-<!--<script src="{% static 'js/hello.js' %} type="text/javascript"></script>-->
     <script>
         alert("Most suitable Quora Answer has opened in your default browser, Sir");
-        var link = {{url}};
-        window.open(link);
+        window.open({{url}});
     </script>
 </head>
 <body>
-<div id="result"><p>Most suitable link  found is:</p>{{urll|linebreaksbr}}</div>
+<div id="result"><p>Most suitable link is:</p>{{urll|linebreaksbr}}</div>
 <p id="res">Most suitable answer has already opened in your default browser</p>
 </body>
 </html>
